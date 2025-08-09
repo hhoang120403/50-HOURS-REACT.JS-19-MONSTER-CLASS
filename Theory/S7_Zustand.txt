@@ -1,0 +1,3 @@
+Zustand: is a lightweight state management library for React applications.
+It helps you manage and share state across different parts of your app
+without needing to pass props through many layers or use complex solutions.
