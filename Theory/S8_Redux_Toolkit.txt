@@ -1,0 +1,25 @@
+Redux: is an open-source JavaScript library for managing the state of
+an application in a predictable way. It is commonly used with libraries 
+like React for building user interfaces but can be used with any 
+JavaScript framework or library
+
+  + A store is a central place where the state of our application is stored
+and it can be created using the configureStore function, and it holds 
+the entire state tree of our application.
+
+  + A slice is a piece of store state and the corresponding reducer logic
+to update the state. Slices are a way to organize our Redux store
+by breaking it down into smaller, more manageable parts.
+
+  + initialState: as the name suggest is going to be the "initial" data
+of our state.
+
+  + Reducers: they define how the information in a particular slice can
+be changed or updated.
+
+  + Actions: are like the request or commands you give to change a specific slice.
+
+  + useSelector() Hook: allows us to read data from the redux store.
+
+  + useDispatch() Hook: The dispatch function is used to send actions to
+the store, triggering updates to the application state.
